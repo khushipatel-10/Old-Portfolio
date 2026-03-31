@@ -11,7 +11,7 @@
 
 <br/>
 
-![Portfolio Preview](public/GIF-ezgif_com-video-to-gif-converter.gif)
+![Portfolio Preview](public/GIF.gif)
 
 </div>
 
