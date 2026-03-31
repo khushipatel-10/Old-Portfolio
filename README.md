@@ -29,11 +29,11 @@ Built with a focus on clean architecture, thoughtful design, and the kind of per
 
 | Layer | Technology |
 |---|---|
-| ⚛️ Framework | Next.js + React |
-| 🟦 Language | TypeScript |
-| 💨 Styling | Tailwind CSS |
-| 🟩 Runtime | Node.js |
-| ☁️ Deployment | Vercel |
+|  Framework | Next.js + React |
+|  Language | TypeScript |
+|  Styling | Tailwind CSS |
+|  Runtime | Node.js |
+|  Deployment | Vercel |
 
 ---
 
