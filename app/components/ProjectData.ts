@@ -1,5 +1,17 @@
 export const projects = [
   {
+    slug: 'gmail-draft-duplicator',
+    title: 'Gmail Draft Duplicator',
+    date: 'Mar 2026',
+    thumbnail: '/thumbnails/gmail.png'
+  },
+  {
+    slug: 'sticky-notes',
+    title: 'Sticky Notes Pro',
+    date: 'Mar 2026',
+    thumbnail: '/thumbnails/sticky.png'
+  },
+  {
     slug: 'tidalense',
     title: 'Tidalense',
     date: 'Feb 2026',

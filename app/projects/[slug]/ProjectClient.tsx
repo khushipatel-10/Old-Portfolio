@@ -10,6 +10,7 @@ type Project = {
     github: string;
     devpost?: string;
     youtube?: string;
+    chromeWebStore?: string;
     description: string;
     bullets: string[];
     intro: string;
@@ -57,6 +58,17 @@ export default function ProjectClient({ project }: { project: Project }) {
                         className="font-semibold text-purple-300 hover:text-purple-100 hover:underline"
                     >
                         YouTube Demo
+                    </a>
+                )}
+
+                {project.chromeWebStore && (
+                    <a
+                        href={project.chromeWebStore}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-purple-300 hover:text-purple-100 hover:underline"
+                    >
+                        Chrome Web Store
                     </a>
                 )}
 

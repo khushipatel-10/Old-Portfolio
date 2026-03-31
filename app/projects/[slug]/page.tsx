@@ -12,7 +12,7 @@ const projects = {
         date: 'Feb 2026',
         github: 'https://github.com/khushipatel-10/Tidalense',
         devpost: 'https://devpost.com/software/tidalense?ref_content=my-projects-tab&ref_feature=my_projects',
-        youtube:'https://youtu.be/eHfgEvEioZA',
+        youtube: 'https://youtu.be/eHfgEvEioZA',
         description:
             'Built an AI-powered global water quality monitoring platform that combines real-time environmental data, computer vision, and predictive analytics to assess water safety at both global and individual scales.',
         bullets: [
@@ -102,6 +102,40 @@ const projects = {
         intro: 'NutriNet is a multimodal deep learning project aimed at estimating caloric intake using diverse biological and behavioral data sources. Traditional nutrition estimation methods rely heavily on manual logging, which is inaccurate and difficult to maintain. This project explores how machine learning can improve nutritional analysis by integrating multiple data modalities.',
         works: 'The model combines continuous glucose monitor data, demographic features, microbiome profiles, and meal images into a unified learning pipeline. Each data modality undergoes specialized preprocessing, including normalization, encoding, and dimensionality reduction. The model architecture is designed to effectively fuse heterogeneous inputs while preserving signal integrity.',
         result: 'NutriNet achieved an RMSRE of 0.3035 on validation data, demonstrating strong predictive performance given the complexity of inputs. The project deepened understanding of multimodal learning, data preprocessing at scale, and building models that operate effectively across structured and unstructured data sources.'
+    },
+
+    'gmail-draft-duplicator': {
+        title: 'Gmail Draft Duplicator',
+        date: 'Mar 2026',
+        github: 'https://github.com/khushipatel-10/Gmail-draft-duplicator',
+        youtube: 'https://youtu.be/wldUPP87BMg?si=o9JbMjgFxqZ4fmqA',
+        description:
+            'Built a privacy-first Chrome extension that enables users to duplicate Gmail drafts instantly using secure Google API integration.',
+        bullets: [
+            'Developed a Chrome extension for one-click duplication of Gmail drafts',
+            'Integrated securely with Google Gmail API using OAuth authentication',
+            'Preserved full draft data including recipients, content, and attachments'
+        ],
+        intro: 'Gmail Draft Duplicator was built to eliminate the repetitive task of manually copying and recreating email drafts. Many workflows require sending similar emails with slight variations, which can be time-consuming and error-prone. This project focuses on providing a fast, secure, and privacy-first solution that allows users to duplicate drafts instantly within their browser environment.',
+        works: 'The extension is built using JavaScript, HTML, and CSS, and runs entirely within the browser as a Chrome extension. It integrates directly with the official Gmail API using OAuth-based authentication to securely access user drafts. Once authenticated, the extension fetches existing drafts and presents them in a simple popup interface. Users can select a draft and specify how many duplicates they want. The extension then programmatically creates identical drafts by replicating all metadata including subject, recipients, message body, and attachments. A build script dynamically injects environment variables such as the OAuth client ID into the extension manifest, ensuring secure configuration.',
+        result: 'The final product provides a seamless and efficient user experience for managing repetitive email workflows. By operating entirely locally and avoiding any external data storage, the extension ensures strong privacy guarantees. The project demonstrates practical experience with browser extension development, API integration, OAuth authentication, and building secure, user-focused productivity tools.'
+    },
+
+    'sticky-notes': {
+        title: 'Sticky Notes Pro',
+        date: 'Mar 2026',
+        github: 'https://github.com/khushipatel-10/Sticky-notes',
+        chromeWebStore: 'https://chromewebstore.google.com/detail/gdidgociebddofkhikikaehgoajhogcd?utm_source=item-share-cb',
+        description:
+            'Developed a Chrome extension that allows users to create, organize, and persist sticky notes directly on webpages with a clean and intuitive interface.',
+        bullets: [
+            'Built a browser extension with persistent, position-aware sticky notes on webpages',
+            'Implemented Shadow DOM isolation to prevent style conflicts with host websites',
+            'Designed a note management system with folders and cross-page navigation'
+        ],
+        intro: 'Sticky Notes Pro was built to improve how users capture and revisit information while browsing the web. Traditional note-taking tools often disconnect notes from their original context, making it difficult to recall where information came from. This project focuses on embedding notes directly within webpages, allowing users to leave contextual annotations that persist exactly where they were created.',
+        works: 'The extension is built using Vanilla JavaScript, HTML, and CSS to ensure lightweight performance and zero dependency overhead. It injects note components directly into webpages using the Chrome Extensions API while leveraging Shadow DOM to isolate styling and prevent interference with existing site CSS. Each note supports rich text formatting including bold, italics, lists, and font size adjustments. Notes are stored using the browser storage API and are mapped to specific URLs, ensuring they reappear in the correct positions when the user revisits a page. A popup interface provides a centralized note manager, allowing users to browse, organize, and navigate between notes using a folder-based system.',
+        result: 'The final product delivers a seamless and visually engaging note-taking experience directly within the browsing environment. By combining persistent storage, contextual placement, and a clean UI, the extension enhances productivity without disrupting the user’s workflow. The project demonstrates strong front-end engineering, DOM manipulation, browser extension architecture, and attention to user experience and design detail.'
     }
 };
 
